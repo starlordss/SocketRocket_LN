@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1364D3109172A0BF9680B83272398372 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19BD211C5C0B5407F3D8C5CA2BDC09D5 /* Pods-SZSocketManagerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C832DD4705E48693AF5657E8FEB15A8 /* Pods-SZSocketManagerTests-dummy.m */; };
+		19E28BC6A994F5AE03E15984D8C50740 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */; };
+		3FC8A124B0F64999134FB2421F2C755A /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */; };
+		669E13C40CB2119BAF8BB0E8EFC9A305 /* Pods-SZSocketManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9274F2675AD63A909A0B36C6C6F83 /* Pods-SZSocketManager-dummy.m */; };
+		69F47A99F84C3BA3B4F07246061E08AE /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D513D50D9AC8B14A3093C458726F6CA8 /* Pods-SZSocketManagerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C80511E66C80BEB9559E7F57C1803966 /* Pods-SZSocketManagerUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C0842E5032B361A4B1C9FCB93F8992D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B2C1B7C83665C4E7D33EDBD8AD1F45;
+			remoteInfo = "Pods-SZSocketManager";
+		};
+		CF56519CE5874FFBDEE0470FF778B6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33725705AF5C58EEA2C4ED0CA802CB62;
+			remoteInfo = SocketRocket;
+		};
+		D8F26BE26E5DABC3599FD66E85F691B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B2C1B7C83665C4E7D33EDBD8AD1F45;
+			remoteInfo = "Pods-SZSocketManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065E4085913A4EA683B72B83A4041931 /* Pods-SZSocketManagerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZSocketManagerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		1B78E4AA16B94CE15B0B614D94E32437 /* libPods-SZSocketManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SZSocketManagerTests.a"; path = "libPods-SZSocketManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		60D1172CD8019017E0BFD332C43B87E3 /* Pods-SZSocketManagerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZSocketManagerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6165E91380F7117A4C73BA3F909DC137 /* Pods-SZSocketManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZSocketManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62CF527A40EC7D24B44C0AC3A208F7E7 /* Pods-SZSocketManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZSocketManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B0B07D6973C0E6B4A3DA92261006F1D /* libPods-SZSocketManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SZSocketManager.a"; path = "libPods-SZSocketManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A9274F2675AD63A909A0B36C6C6F83 /* Pods-SZSocketManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZSocketManager-dummy.m"; sourceTree = "<group>"; };
+		81ED5606DF56484C11C9E852E586A23C /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		85CE40561D04255BF07847B9B4254122 /* Pods-SZSocketManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZSocketManager.debug.xcconfig"; sourceTree = "<group>"; };
+		9C832DD4705E48693AF5657E8FEB15A8 /* Pods-SZSocketManagerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZSocketManagerTests-dummy.m"; sourceTree = "<group>"; };
+		9E6177D3E09B77EF190B085B50C90ED7 /* Pods-SZSocketManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZSocketManager.release.xcconfig"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C80511E66C80BEB9559E7F57C1803966 /* Pods-SZSocketManagerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZSocketManagerUITests-dummy.m"; sourceTree = "<group>"; };
+		D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		DCD5A92BCBD3A7115D25524E12C79AC0 /* Pods-SZSocketManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZSocketManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		E21CFACD234E2AA02B7EBA22E4E4376E /* Pods-SZSocketManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZSocketManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		E964E463E0491DA665113EE5729457F9 /* Pods-SZSocketManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZSocketManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDA476826A88B875742F5E22CA788537 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23074FDB436608E0D92EC9023A58CB5 /* Pods-SZSocketManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZSocketManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4AE23932BBB732D42D68AB535241C22 /* Pods-SZSocketManagerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZSocketManagerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F53EEB9B2805AD63829E5EBE7C7369E8 /* Pods-SZSocketManagerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZSocketManagerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F75AA6A7508DCB01C848F0E60D7B1928 /* libPods-SZSocketManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SZSocketManagerUITests.a"; path = "libPods-SZSocketManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FEF4CE9B7B952D963B0E473598B5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B2D8FBF0ABE06F6AA8B51E36CDB39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95F8AAC8B2914661B6850EFC287A8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8032AB957BAD869F3349E50090DF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04310F8822AFFD42107F8DA169E0A47A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */,
+				1AD643BBD53C0BC9592126E22C82B77A /* SocketRocket-dummy.m */,
+				81ED5606DF56484C11C9E852E586A23C /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22F9CEF0AD545755D79F49C2AD0CD331 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A78BCABF9531655C2DE2DCF1D75CBEE /* Pods-SZSocketManager */,
+				E908529B2AA2FA6FB9EBFDF9CEDD3EB9 /* Pods-SZSocketManagerTests */,
+				296A40F6F8320A0A38F160DBB13FF7BE /* Pods-SZSocketManagerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		296A40F6F8320A0A38F160DBB13FF7BE /* Pods-SZSocketManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AE23932BBB732D42D68AB535241C22 /* Pods-SZSocketManagerUITests-acknowledgements.markdown */,
+				065E4085913A4EA683B72B83A4041931 /* Pods-SZSocketManagerUITests-acknowledgements.plist */,
+				C80511E66C80BEB9559E7F57C1803966 /* Pods-SZSocketManagerUITests-dummy.m */,
+				E21CFACD234E2AA02B7EBA22E4E4376E /* Pods-SZSocketManagerUITests.debug.xcconfig */,
+				E964E463E0491DA665113EE5729457F9 /* Pods-SZSocketManagerUITests.release.xcconfig */,
+			);
+			name = "Pods-SZSocketManagerUITests";
+			path = "Target Support Files/Pods-SZSocketManagerUITests";
+			sourceTree = "<group>";
+		};
+		2A78BCABF9531655C2DE2DCF1D75CBEE /* Pods-SZSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				F23074FDB436608E0D92EC9023A58CB5 /* Pods-SZSocketManager-acknowledgements.markdown */,
+				DCD5A92BCBD3A7115D25524E12C79AC0 /* Pods-SZSocketManager-acknowledgements.plist */,
+				80A9274F2675AD63A909A0B36C6C6F83 /* Pods-SZSocketManager-dummy.m */,
+				85CE40561D04255BF07847B9B4254122 /* Pods-SZSocketManager.debug.xcconfig */,
+				9E6177D3E09B77EF190B085B50C90ED7 /* Pods-SZSocketManager.release.xcconfig */,
+			);
+			name = "Pods-SZSocketManager";
+			path = "Target Support Files/Pods-SZSocketManager";
+			sourceTree = "<group>";
+		};
+		4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				702DD509C6164C2492FCB546BD72BB07 /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		702DD509C6164C2492FCB546BD72BB07 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				E3AD439A80B2F1ABD299002CAA341262 /* SocketRocket.h */,
+				5AF4E5EED2BE7953295FCE1F8F29887B /* SRWebSocket.h */,
+				1095759AC714C71F66EB69CA0E335A64 /* SRWebSocket.m */,
+				04310F8822AFFD42107F8DA169E0A47A /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */,
+				ABF441AE5A0D9D0626085F5EBE3A1AFB /* Products */,
+				22F9CEF0AD545755D79F49C2AD0CD331 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF441AE5A0D9D0626085F5EBE3A1AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B0B07D6973C0E6B4A3DA92261006F1D /* libPods-SZSocketManager.a */,
+				1B78E4AA16B94CE15B0B614D94E32437 /* libPods-SZSocketManagerTests.a */,
+				F75AA6A7508DCB01C848F0E60D7B1928 /* libPods-SZSocketManagerUITests.a */,
+				EDA476826A88B875742F5E22CA788537 /* libSocketRocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E908529B2AA2FA6FB9EBFDF9CEDD3EB9 /* Pods-SZSocketManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				60D1172CD8019017E0BFD332C43B87E3 /* Pods-SZSocketManagerTests-acknowledgements.markdown */,
+				F53EEB9B2805AD63829E5EBE7C7369E8 /* Pods-SZSocketManagerTests-acknowledgements.plist */,
+				9C832DD4705E48693AF5657E8FEB15A8 /* Pods-SZSocketManagerTests-dummy.m */,
+				6165E91380F7117A4C73BA3F909DC137 /* Pods-SZSocketManagerTests.debug.xcconfig */,
+				62CF527A40EC7D24B44C0AC3A208F7E7 /* Pods-SZSocketManagerTests.release.xcconfig */,
+			);
+			name = "Pods-SZSocketManagerTests";
+			path = "Target Support Files/Pods-SZSocketManagerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		508C1399DA693FF2BC3CF0BA292BA5C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62FF18A754FF8A9D1C5268D64D6795B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C45FDE0B92B3271BA105F2ED708D02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B405CB6034F35555A577A81757491D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F47A99F84C3BA3B4F07246061E08AE /* SocketRocket.h in Headers */,
+				1364D3109172A0BF9680B83272398372 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19B2C1B7C83665C4E7D33EDBD8AD1F45 /* Pods-SZSocketManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F034B14419C37283AAEECA7C2508E1C /* Build configuration list for PBXNativeTarget "Pods-SZSocketManager" */;
+			buildPhases = (
+				A62FF18A754FF8A9D1C5268D64D6795B /* Headers */,
+				229C24ACBDEED5F93061E6A298C2AC51 /* Sources */,
+				DE8032AB957BAD869F3349E50090DF3F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D01D0C3A6F742D689EE652F7AB3627 /* PBXTargetDependency */,
+			);
+			name = "Pods-SZSocketManager";
+			productName = "Pods-SZSocketManager";
+			productReference = 7B0B07D6973C0E6B4A3DA92261006F1D /* libPods-SZSocketManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2F6E50E677DEE8EEEBC4D09E4A5F4766 /* Pods-SZSocketManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200A452BAD8C8AA6D799E50809CDC26B /* Build configuration list for PBXNativeTarget "Pods-SZSocketManagerTests" */;
+			buildPhases = (
+				A7C45FDE0B92B3271BA105F2ED708D02 /* Headers */,
+				6BE869B3D6C28A6D6CFBAB291FE0DCCE /* Sources */,
+				C8B2D8FBF0ABE06F6AA8B51E36CDB39F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631A960933388BA2B85687F45DFEA251 /* PBXTargetDependency */,
+			);
+			name = "Pods-SZSocketManagerTests";
+			productName = "Pods-SZSocketManagerTests";
+			productReference = 1B78E4AA16B94CE15B0B614D94E32437 /* libPods-SZSocketManagerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2F7AE32BE1348F954C3E9591E4611195 /* Pods-SZSocketManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB3BFF9064B2E1290A0D67C4BA14320 /* Build configuration list for PBXNativeTarget "Pods-SZSocketManagerUITests" */;
+			buildPhases = (
+				508C1399DA693FF2BC3CF0BA292BA5C5 /* Headers */,
+				11696212A080E2A5638B2E5EB962666E /* Sources */,
+				A1FEF4CE9B7B952D963B0E473598B5E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D18335EB3CBD25FB1CB4067129D7D39 /* PBXTargetDependency */,
+			);
+			name = "Pods-SZSocketManagerUITests";
+			productName = "Pods-SZSocketManagerUITests";
+			productReference = F75AA6A7508DCB01C848F0E60D7B1928 /* libPods-SZSocketManagerUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		33725705AF5C58EEA2C4ED0CA802CB62 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1563D9744C84C4BA96FD8B8E180EDA /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				C0B405CB6034F35555A577A81757491D /* Headers */,
+				63052231DFAC6E5CC79D12E8FE2D7DFF /* Sources */,
+				D95F8AAC8B2914661B6850EFC287A8BD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = EDA476826A88B875742F5E22CA788537 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ABF441AE5A0D9D0626085F5EBE3A1AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B2C1B7C83665C4E7D33EDBD8AD1F45 /* Pods-SZSocketManager */,
+				2F6E50E677DEE8EEEBC4D09E4A5F4766 /* Pods-SZSocketManagerTests */,
+				2F7AE32BE1348F954C3E9591E4611195 /* Pods-SZSocketManagerUITests */,
+				33725705AF5C58EEA2C4ED0CA802CB62 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11696212A080E2A5638B2E5EB962666E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D513D50D9AC8B14A3093C458726F6CA8 /* Pods-SZSocketManagerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229C24ACBDEED5F93061E6A298C2AC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669E13C40CB2119BAF8BB0E8EFC9A305 /* Pods-SZSocketManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63052231DFAC6E5CC79D12E8FE2D7DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E28BC6A994F5AE03E15984D8C50740 /* SocketRocket-dummy.m in Sources */,
+				3FC8A124B0F64999134FB2421F2C755A /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE869B3D6C28A6D6CFBAB291FE0DCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BD211C5C0B5407F3D8C5CA2BDC09D5 /* Pods-SZSocketManagerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631A960933388BA2B85687F45DFEA251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SZSocketManager";
+			target = 19B2C1B7C83665C4E7D33EDBD8AD1F45 /* Pods-SZSocketManager */;
+			targetProxy = 6C0842E5032B361A4B1C9FCB93F8992D /* PBXContainerItemProxy */;
+		};
+		83D01D0C3A6F742D689EE652F7AB3627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 33725705AF5C58EEA2C4ED0CA802CB62 /* SocketRocket */;
+			targetProxy = CF56519CE5874FFBDEE0470FF778B6E7 /* PBXContainerItemProxy */;
+		};
+		8D18335EB3CBD25FB1CB4067129D7D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SZSocketManager";
+			target = 19B2C1B7C83665C4E7D33EDBD8AD1F45 /* Pods-SZSocketManager */;
+			targetProxy = D8F26BE26E5DABC3599FD66E85F691B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F05BE78BA84E23D56B8A0DDCBA10548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CE40561D04255BF07847B9B4254122 /* Pods-SZSocketManager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23FC7F3F53833DBD14E8C965BACB57F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B2194D3495DB4E04277D066231EF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21CFACD234E2AA02B7EBA22E4E4376E /* Pods-SZSocketManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28F048C87AA29A66D585376F05895B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E964E463E0491DA665113EE5729457F9 /* Pods-SZSocketManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5430B19C13317A251FC88ADBAE568E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6177D3E09B77EF190B085B50C90ED7 /* Pods-SZSocketManager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1B2575DA7056812CA563722E4807A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D271E1ACC894BAE9E6FC8AAAF017C9F4 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96E45EC9BC98F2D33F559D3597AAA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6165E91380F7117A4C73BA3F909DC137 /* Pods-SZSocketManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEBDCDCF2AAC234444E8FC26AB501A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CF527A40EC7D24B44C0AC3A208F7E7 /* Pods-SZSocketManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200A452BAD8C8AA6D799E50809CDC26B /* Build configuration list for PBXNativeTarget "Pods-SZSocketManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96E45EC9BC98F2D33F559D3597AAA2C /* Debug */,
+				AEBDCDCF2AAC234444E8FC26AB501A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F034B14419C37283AAEECA7C2508E1C /* Build configuration list for PBXNativeTarget "Pods-SZSocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05BE78BA84E23D56B8A0DDCBA10548 /* Debug */,
+				4F5430B19C13317A251FC88ADBAE568E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1563D9744C84C4BA96FD8B8E180EDA /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FC7F3F53833DBD14E8C965BACB57F6 /* Debug */,
+				9E1B2575DA7056812CA563722E4807A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB3BFF9064B2E1290A0D67C4BA14320 /* Build configuration list for PBXNativeTarget "Pods-SZSocketManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B2194D3495DB4E04277D066231EF0D /* Debug */,
+				28F048C87AA29A66D585376F05895B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
